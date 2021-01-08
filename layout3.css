@@ -150,22 +150,77 @@ span:hover{
 .row5{
     color: #999;
     background-color: #323232;
+    padding-bottom: 50px;
 }
 .container{
     width:80%;
     margin: auto;
-    padding: 80px 0;
+    padding: 15px 0;
     clear: both;
     font-size: 16px;
     line-height: 25px;
+    text-transform: capitalize;
 }
 .container h1{
     margin: 40px 0;
-    text-transform: capitalize;
+   
     font-weight: normal;
     color: #E3CE90;
     /* padding: 0; */
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
 }
+.container h2{
+    margin: 15px 0;
+   
+    font-weight: normal;
+    color: #E3CE90;
+    /* padding: 0; */
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.box-wrap{
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid black;
+    color: #DF7879;
+}
+.box-wrap .p{
+    font-size: 17px;
+   
+    line-height: 45px;
+    padding-left: 20px;
+}
+.box-wrap:hover {
+    background-color:#DF7879 ;
+    color: #fff;
+}
+.container li p{
+    font-size: 15px;
+}
+.container li a{
+    color: #DF7879;
+    text-decoration: none;
+}
+footer{
+    
+    margin: auto;
+    color: #999;
+    font-size: 16px;
+    background-color: black;
+    padding: 10px;
+    overflow: auto;
+   
+}
+footer a{
+    color: #999;
+    text-decoration: none;
+}
+footer p{
+    margin-left: 80px;
+}
+
 
